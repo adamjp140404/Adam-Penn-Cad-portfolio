@@ -1,0 +1,19 @@
+
+########## BOOSTER DROGUE ##########
+
+Mass 27.0 lb | deploy 150 ft/s @ 11000 ft (rho 0.877 kg/m^3) | descent checked at 1500 ft
+Cx (1.4, 1.8) | nfill (4.0, 14.0) | Pflanz curve(s) ('2',) + weight (gravity)
+>> Highlighted column: Pflanz with Cx 1.6-1.8 (placeholder - set for drogue type, Knacke Table 5-1)
+
+ Size  Descent   Pflanz, full Cx    >>Cx 1.6-1.8<<       MIT [lbf]  Worst/line  OK?
+ 12in  176.5fps      47 - 53           50 - 53           19 - 19           7 lb   too fast
+ 15in  141.2fps      59 - 68           63 - 68           28 - 28           8 lb   too fast
+ 18in  117.7fps      73 - 86           79 - 86           39 - 39          11 lb   too fast
+ 20in  105.9fps      84 - 100          92 - 100          45 - 45          12 lb   too fast
+ 24in   88.3fps     107 - 132         118 - 132          59 - 71          16 lb   yes
+ 30in   70.6fps     146 - 191         163 - 191          80 - 105         24 lb   yes
+ 36in   58.8fps     186 - 259         208 - 259          98 - 144         32 lb   yes
+
+MIT does not use Cx, so its column is the same for any Cx range.
+
+Lines: 8 (placeholder), rating 220 lb each (placeholder). 'Worst/line' assumes the load splits evenly across lines, with no safety factor.

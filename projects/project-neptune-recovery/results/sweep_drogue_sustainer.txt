@@ -1,0 +1,19 @@
+
+########## SUSTAINER DROGUE ##########
+
+Mass 23.0 lb | deploy 150 ft/s @ 23000 ft (rho 0.589 kg/m^3) | descent checked at 1500 ft
+Cx (1.4, 1.8) | nfill (4.0, 14.0) | Pflanz curve(s) ('2',) + weight (gravity)
+>> Highlighted column: Pflanz with Cx 1.6-1.8 (placeholder - set for drogue type, Knacke Table 5-1)
+
+ Size  Descent   Pflanz, full Cx    >>Cx 1.6-1.8<<       MIT [lbf]  Worst/line  OK?
+ 12in  162.9fps      37 - 41           39 - 41           13 - 13           5 lb   too fast
+ 15in  130.4fps      44 - 51           47 - 51           20 - 20           6 lb   too fast
+ 18in  108.6fps      54 - 63           58 - 63           27 - 27           8 lb   too fast
+ 20in   97.8fps      61 - 72           67 - 72           32 - 32           9 lb   yes
+ 24in   81.5fps      77 - 94           85 - 94           42 - 42          12 lb   yes
+ 30in   65.2fps     105 - 133         116 - 133          57 - 72          17 lb   yes
+ 36in   54.3fps     133 - 181         149 - 181          71 - 99          23 lb   yes
+
+MIT does not use Cx, so its column is the same for any Cx range.
+
+Lines: 8 (placeholder), rating 220 lb each (placeholder). 'Worst/line' assumes the load splits evenly across lines, with no safety factor.
