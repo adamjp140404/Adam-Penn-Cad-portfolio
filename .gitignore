@@ -1,0 +1,18 @@
+# SolidWorks lock/temp files (created while a file is open)
+~$*
+*.swp
+# SolidWorks auto-recover and backups
+*.sldbak
+*.swbak
+Backup of *
+*_autorecover*
+# Simulation results (large, regenerable) - remove if you want to keep them
+*.cwr
+*.rst
+*.cwr_*
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
